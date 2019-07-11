@@ -1,2 +1,3 @@
-# simplebash
-Simple bash scripts
+# Simple bash scripts
+
+Contains simple random bash scripts

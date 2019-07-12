@@ -16,4 +16,4 @@ if [ x"$1" = "x" ]; then
         echo "Filename required!"
         exit 1
 fi
-awk '{for(x=1; $x; ++x)print $x}' "${1}" | sort | uniq -c
+awk '{for(x=1; $x; ++x)print $x}' "${1}" | sort | uniq -c | awk '{print $2,$1}'
